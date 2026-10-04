@@ -6,7 +6,8 @@ Most apps personalize what you see. Prism personalizes what the app *is*. Click 
 
 <!-- ![Prism demo](docs/demo.gif) -->
 
-https://github.com/user-attachments/assets/e35d0034-c4e8-498a-a34f-e057475fe202
+
+https://github.com/user-attachments/assets/a41466ab-eac6-4cdc-a7d0-c3e46dd8fa9d
 
 
 
@@ -54,11 +55,14 @@ widget/   Glance widget
 ## Setup
 
 1. Clone the repo
-2. Get free API keys for NewsAPI and OpenWeatherMap
+2. Get free API keys for NewsAPI and Spoonacular (TheSportsDB needs no key), plus AdMob test ad unit IDs
 3. Add them to `local.properties`:
    ```
    NEWS_API_KEY=your_key
-   WEATHER_API_KEY=your_key
+   FOOD_API_KEY=your_spoonacular_key
+   ADMOB_NEWS_AD_UNIT_ID=your_id
+   ADMOB_SPORTS_AD_UNIT_ID=your_id
+   ADMOB_FOOD_AD_UNIT_ID=your_id
    ```
 4. Add your own `google-services.json` to `app/`
 5. Build and run
